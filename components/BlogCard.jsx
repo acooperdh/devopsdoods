@@ -17,10 +17,10 @@ const blogData = {
 };
 
 
-export default function BlogCard(){
+export default function BlogCard({ blog }){
 	return (
 		<Box maxW='sm' borderWidth='1px' borderRadius='lg'>
-			<Image boxSize='250px' src={blogData.image} alt={"words"} />
+			<Image boxSize='250px' src={blog.image} alt={"words"} />
 
 			<Box p='6'> 
 				<Box display='flex' alignItems='baseline'>
@@ -31,13 +31,13 @@ export default function BlogCard(){
 			</Box> 
 
 			<Box mt='1' fontWeight='semibold' as='h4' lineHeight='tight' isTruncated>
-				{blogData.title}
+				{blog.title}
 			</Box>
 
 			<Box p='2'>
 
-				Author: {blogData.author} <br/>
-				Data Published: {blogData.author}
+				Author: {blog.author} <br/>
+				Data Published: {blog.published_at}
 			</Box>
 		</Box>
 	);

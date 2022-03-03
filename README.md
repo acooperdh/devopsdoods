@@ -43,3 +43,5 @@ developers. It is a set of components that are designed to be
 used together, and make it easier to style components so we
 can focus out time on features of our application rather then
 stlying.
+
+using faker.js in order to mock user data for now [faker.js](https://www.npmjs.com/package/faker/v/5.5.3)
