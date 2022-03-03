@@ -7,6 +7,10 @@
 	align-items: center;
 }
 
+.spacer{
+	height: 500px;
+}
+
 .loginSection button{
 	border: none;
 	background-color: blue;
