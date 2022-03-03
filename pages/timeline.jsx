@@ -3,6 +3,7 @@ import Timeline from '../components/Timeline'
 import faker from 'faker'
 export default function Home() {
   
+  // ideally should be moved into it's own component 
   let user = {'user_id': 1, 'username': 'John Doe', 'email': 'drew@devopsdoods.ca'}
   function getBlogs(){
     let temp = []
