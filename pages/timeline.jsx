@@ -17,7 +17,7 @@ export default function Home() {
         'created_at': faker.date.recent(),
         'published_at': '2002-02-02',
         'image': faker.image.imageUrl(),
-        'likes': faker.random.number(),
+        'likes': faker.datatype.number(),
       }
       temp.push(blog)
     }

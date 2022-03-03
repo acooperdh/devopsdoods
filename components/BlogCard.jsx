@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Box, Image } from '@chakra-ui/react'
+import { Badge, Box, Center, Image } from '@chakra-ui/react'
 // Info displayed on Blog Card 
 /* 
 - title 
@@ -19,8 +19,10 @@ const blogData = {
 
 export default function BlogCard({ blog }){
 	return (
-		<Box maxW='sm' borderWidth='1px' borderRadius='lg'>
-			<Image boxSize='250px' src={blog.image} alt={"words"} />
+		<Box maxW='container.md' borderWidth='1px' borderRadius='lg'>
+			<Center> 
+				<Image boxSize='300px' src={blog.image} alt={"words"} objectFit='cover'/>
+			</Center>
 
 			<Box p='6'> 
 				<Box display='flex' alignItems='baseline'>
@@ -35,7 +37,6 @@ export default function BlogCard({ blog }){
 			</Box>
 
 			<Box p='2'>
-
 				Author: {blog.author} <br/>
 				Data Published: {blog.published_at}
 			</Box>
