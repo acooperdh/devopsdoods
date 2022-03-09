@@ -14,7 +14,9 @@ export default function NavBar() {
 				<NextLink href='/timeline'>
 					<Button>Timeline</Button> 
 				</NextLink>
-				<Button colorScheme='green' rightIcon={<AddIcon />}>Create Blog</Button>
+				<NextLink href='/create-blog'>
+					<Button colorScheme='green' rightIcon={<AddIcon />}>Create Blog</Button>
+				</NextLink>
 				<Button>Profile</Button>
 				<Button colorScheme='red'>Logout</Button>
 			</Stack>

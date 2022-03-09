@@ -45,3 +45,13 @@ can focus out time on features of our application rather then
 stlying.
 
 using faker.js in order to mock user data for now [faker.js](https://www.npmjs.com/package/faker/v/5.5.3)
+
+using react-markdown npm package to take in and render markdown blogs written by
+the user 
+[react-markdown](https://www.npmjs.com/package/react-markdown)
+this is the article i found that helps explain how to use react-markdown
+[article](https://medium.com/@ipenywis/create-a-react-markdown-editor-hooks-context-89e67f9f49f3)
+install remark-gfm to used with react-markdown
+
+
+now that this is solo, lets see how i can get this bad boy up and running.
