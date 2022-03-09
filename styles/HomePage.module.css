@@ -1,0 +1,24 @@
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.spacer{
+	height: 500px;
+}
+
+.loginSection button{
+	border: none;
+	background-color: blue;
+	padding: 1rem;
+	color: white;
+	margin: 2rem;
+}
+
+.loginSection button:hover{
+	background-color: red;
+}
