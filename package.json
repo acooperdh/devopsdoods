@@ -8,10 +8,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^2.10.4",
     "@chakra-ui/icons": "^1.1.7",
     "@chakra-ui/react": "^1.8.6",
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
+    "aws-amplify": "^4.3.17",
     "faker": "^5.5.3",
     "framer-motion": "^6.2.8",
     "next": "^12.1.0",
