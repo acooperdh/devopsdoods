@@ -10,7 +10,9 @@ export default function Timeline({ blogs, user}){
 	});
 	return (
 		<div className={styles.container}>
-			<NavBar />
+			<div className={"fart"}> 
+				<NavBar />
+			</div>
 			<Heading size="xl"> {user.username}&apos;s timeline </Heading>
 			<SimpleGrid columns={3} spacing={10}>
 				{blogCards}
