@@ -9,7 +9,6 @@ import styles from '../styles/CreateBlog.module.css';
 
 import MarkdownContext from '../contexts/markdownContext';
 
-
 export default function CreateBlog() {
 	const [markdownText, setMarkdownText] = useState('');
 
