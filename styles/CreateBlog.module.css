@@ -7,10 +7,22 @@
 	background-color:antiquewhite;
 }
 
+.container2 {
+	width: 100%;
+	background-color:rgb(88, 88, 86);
+}
+
+.navbar{
+	display: flex;
+	justify-content: center;
+}
+
 .title {
 	font-size: 2rem;
 	font-weight: bold;
 	margin-bottom: 1rem;
+	display: flex;
+	justify-content: center;
 }
 
 .editorContainer {
