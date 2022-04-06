@@ -12,6 +12,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { StyledEngineProvider } from '@mui/material';
 import Expenses from './components/testcomp';
 import Timeline from './components/Timeline';
+import CreateBlogPage from './components/CreateBlogPage';
 
 
 const rootElement = document.getElementById('root');
@@ -23,7 +24,7 @@ ReactDOM.render(
           <Route path="/" element={<App />} />
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/profile" element={<h1>Not working yet!</h1>} />
-          <Route path="/create-blog" element={<h1>Not working yet!</h1>} />
+          <Route path="/create-blog" element={<CreateBlogPage />} />
         </Routes>
       </BrowserRouter>
     </StyledEngineProvider>

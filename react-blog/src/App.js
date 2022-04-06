@@ -1,20 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-
+import styles from './styles/Main.css'
 import React from 'react';
-import MainPage from './pages/landing';
 import { BrowserRouter, Link as RouterLink, Route, Switch} from 'react-router-dom';
-import { Box, Button } from '@mui/material';
-import Timeline from './components/Timeline';
-
+import { Box, Button, Container } from '@mui/material';
+import NavBar from './components/NavBar';
 function App() {
   return (
-    <Box>
-      <h1>Hello</h1>
-        <Button variant="contained"> <RouterLink to='/'>Home</RouterLink> </Button>
-
-        <Button variant="contained"><RouterLink to='/timeline'>Timeline</RouterLink></Button> 
-    </Box>
+    <div className={styles.container}>
+      <NavBar />
+      <Container maxWidth='xl'>
+        <h1>Welcome to The DevOps Doods Blog! </h1>
+        <Box>
+          <Button>
+            Login
+          </Button>
+          <Button>
+            Sign Up
+          </Button>
+        </Box>
+      </Container>
+    </div>
   );
 }
 
