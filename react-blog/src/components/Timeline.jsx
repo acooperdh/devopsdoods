@@ -30,13 +30,13 @@ function getBlogs(){
   return temp;
 }
 
-async function getS3Objects(){
-  const api = 'https://y1pum0gk05.execute-api.us-east-1.amazonaws.com/v2/devdoods-new-bucket';
-  const data = {'file' : 'myobject.png'};
-  let image = null;
-  await axios.get(api, {params: data}, { headers : { 'Access-Control-Allow-Origin': '*'}})
-  .then(res => {console.log(res); image = res.data}).catch(error => {console.log(error)});
-}
+// async function getS3Objects(){
+//   const api = 'https://y1pum0gk05.execute-api.us-east-1.amazonaws.com/v2/devdoods-new-bucket';
+//   const data = {'file' : 'myobject.png'};
+//   let image = null;
+//   await axios.get(api, {params: data}, { headers : { 'Access-Control-Allow-Origin': '*'}})
+//   .then(res => {console.log(res); image = res.data}).catch(error => {console.log(error)});
+// }
 
 export default function Timeline(){
 	return (
