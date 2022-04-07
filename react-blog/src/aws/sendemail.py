@@ -5,7 +5,7 @@ sns = boto3.client('sns')
 
 def lambda_handler(event, context):
 
-    snsArn = "arn:aws:sns:us-east-1:845759875982:test-sns-topic"
+    snsArn = "arn:aws:sns:us-east-1:845759875982:send-email"
     if (event["Records"]["status == 'SUCCESS'"]):
 
         message = "A new photo has been uploaded to S3, check it out here: " + \
