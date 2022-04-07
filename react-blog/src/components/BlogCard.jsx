@@ -9,7 +9,6 @@ const blog = {
 }
 export default function BlogCard({blog}) {
 	return (
-		<Box sx={{ minWidth: 300}}>
 			<Card variant="outlined">
 				<CardMedia
 					component="img"
@@ -26,6 +25,5 @@ export default function BlogCard({blog}) {
 					<Button variant="contained">Read More</Button>
 				</CardActions>
 			</Card>
-		</Box>
 	)
 }
