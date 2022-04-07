@@ -8,15 +8,19 @@ function App() {
     <div className="app-container">
       <NavBar />
       <Container maxWidth='xl' >
+        <div className={'login-header'}>
         <h1>Welcome to The DevOps Doods Blog! </h1>
+        </div>
+        <div className={'login-container'}>
         <Box>
-          <Button variant="contained">
+          <Button size="large" sx={{margin: 1}} color="success" variant="contained">
             Login
           </Button>
-          <Button variant="contained">
+          <Button size="large" sx={{margin: 1}} variant="contained" color="error">
             Sign Up
           </Button>
         </Box>
+        </div>
       </Container>
     </div>
   );

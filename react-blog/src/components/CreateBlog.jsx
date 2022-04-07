@@ -24,9 +24,7 @@ export default function CreateBlog(props){
 				<Button onClick={() => console.log("preview!")}variant="contained">Preview</Button>
 				{/* on this button click, the blog should be uploaded to the s3 bucket along with the thumbnail photo */}
 				<Button onClick={() => console.log(markdownText)}variant="contained">Publish</Button>
-				<Button component="label" variant="contained"><PhotoUpload /></Button>
-				<PhotoUpload />
-				<Button onClick={() => console.log("upload photo!")}variant="contained">Attach Photo</Button>
+				<Button onClick={() => console.log("upload photo!")}variant="contained"><input type="file"/></Button>
 		</Container>
 	)
 }

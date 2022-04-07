@@ -20,6 +20,22 @@
   display:flex;
   justify-content: center;
   color: white;
+}
+
+.navbar a {
   text-decoration: none;
-  
+  color: white;
+}
+
+.login-header {
+  text-align: center;
+}
+
+.login-container {
+  background-color: blue;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
